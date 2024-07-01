@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CPSTest.MainPage"
+             BackgroundColor="WhiteSmoke">
+    <!--"Etusivun" käyttöliittymä. Ylimpänä on ajastin, jonka alla on kaksi nappia. Ensimmäisestä napista ajastin käynnistetään
+    ja toisesta pysäytetään. Nappien toiminnallisuus esitellään MainPage.xaml.cs -tiedostossa.-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label x:Name="AjastinLabel" Text="00:00:00" HorizontalOptions="Center" FontSize="45" TextColor="#627ba4" Grid.Row="0" />
+
+        <Button
+            x:Name="ClickBtn"
+            Clicked="OnClickClicked"
+            Text="Klikkaa tästä"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            BackgroundColor="BlueViolet"
+            TextColor="White"
+            Grid.Row="1">
+        </Button>
+
+        <Button
+            x:Name="LBBtn"
+            Clicked="OnLBClicked"
+            Text="Lopeta testi ja näytä tulostaulukko"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            IsEnabled="False"
+            BackgroundColor="Coral"
+            TextColor="White"
+            Grid.Row="2">
+        </Button>
+    </Grid>
+
+</ContentPage>
