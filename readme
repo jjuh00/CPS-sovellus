@@ -1,2 +1,2 @@
 Koodattu C#:lla. Käyttöliittymä tehty .NET MAUI:lla. Kyseessä on sovellus, jossa käyttäjä voi testata, kuinka nopeasti hän pystyy klikkaamaan nappia (CPS, clicks per second / klikkausta sekunnissa).
-Ohjelman voi ajaa ainakin Visual Studiolla (avaa Visual Studiossa CPSTest.sln -tiedosto).  Sovelluksen tekemisessä on hyödynnetty tekoälyä ajastimen toiminnallisuuden ja virheiden korjausten kanssa.
+Ohjelman voi ajaa ainakin Visual Studiolla (avaa Visual Studiossa solution-tiedosto CPSTest.sln).  Sovelluksen tekemisessä on hyödynnetty tekoälyä ajastimen toiminnallisuuden ja virheiden korjausten kanssa.
